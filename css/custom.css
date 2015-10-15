@@ -1,0 +1,50 @@
+.dull-link {
+	color: inherit;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.dull-link:link {
+	color: inherit;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.dull-link:hover {
+	color: inherit;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.dull-link:active {
+	color: inherit;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.dull-link:visited {
+	color: inherit;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.floating-text {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-image {
+	vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+	padding: 100px;
+}
+
+.paralax-container {
+	height: 1000;
+}

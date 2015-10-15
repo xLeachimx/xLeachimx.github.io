@@ -1,1 +1,93 @@
-Hello, this site is under construction.
+<!DOCTYPE html>
+<html>
+  <!-- get scripts and stuff -->
+  <head>
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script src="javascript/custom.js"></script>
+  </head>
+  <!-- create a simple navbar -->
+  <div class="navbar-fixed">
+    <nav class="grey darken-3 navbar navbar-default">
+      <!-- left side of screen -->
+      <ul class="left nav navbar-header nav-tabs">
+        <li>
+          <a class="floating-text dull-link" href="#"> <h5>  Michael Huelsman </h5> </a>
+        </li>
+      </ul>
+      <!-- right side of the screen -->
+      <ul class="right nav nav-tabs">
+        <li>
+          <a class="white-text dull-link" href="#education">Education</a>
+        </li>
+        <li>
+          <a class="white-text dull-link" href="#interests">Interests</a>
+        </li>
+        <li>
+          <a href="https://github.com/xLeachimx"> <img class="center-image" src="images/GitHub-Mark-32px.png" alt="github icon"> </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- The Body of the page -->
+  <body>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/transy.jpg"></div>
+    </div>
+    <section class="blue-grey white-text"  id="education">
+      <!-- EDUCATION INFORMATION -->
+      <h1 class="center"> My Education </h1>
+      <h3>University</h3>
+      <p>
+        <h5 class="center">
+          I currently study Computer Science at Transylvania University in Lexington Kentucky.
+          I am pursuing a BA of CS with a concentration in Artificial Intelligence/Psychology.
+        </h5>
+      <h3>Work Experience</h3>
+      <p>
+        <h5 class="center">
+          I currently work for a Lexington based software start up called
+          <a class="dull-link" href="http://cirrusmio.com"> CirrusMio</a>.
+          At CirrusMio I am routinely tasked with creating and maintaining features on internal projects.
+        </h5>
+    </section>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/ai.jpg"></div>
+    </div>
+    <!-- RESEARCH INFORMATION -->
+    <section class="blue darken-4 white-text" id="interests">
+      <h1 class="center"> My Research/Interests </h1>
+      <div>
+        <h3> Completed Projects </h3>
+        <p>
+          <div>
+            <h5 class="center"> Schema Transformations </h5>
+            <h6>
+              In order to improve the overall performance and efficieny of GA, I implemented a series of schema transforms
+              to reduce the amount of genetic information and therefore the search space. This improved the overall performance,
+              but causes the introduction of bias in the generated solutions. The project can be found <a href="https://github.com/xLeachimx/MOSTGAPAO">here</a>
+            </h6>
+            <h5 class="center"> Semantic Index Distance </h5>
+            <h6>
+              In order to improve indexing of cases and retrival of similar cases in CBR this techinque indexes the given cases
+              using a semantic net that was created before hand. Case distance is then calculated using a spreading activation
+              model. The case with the shortest distance to the query case through the semantic network which has weighted edges.
+              The project can be found <a href="https://github.com/xLeachimx/SIDCBR">here</a>
+            </h6>
+          </div>
+      </div>
+      <h3> Research Interests </h3>
+      <ul class="center">
+        <h5>
+          <li>Creativity in AI</li>
+          <li>Graphical AI</li>
+          <li>AI efficiency</li>
+          <li>Genetic Algorithms</li>
+          <li>Case Based Reasoning</li>
+        </h5>
+      </ul>
+    </div>
+  <body>
+</html>
